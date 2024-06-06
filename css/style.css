@@ -9,6 +9,12 @@
     position: relative;
 }
 
+section.header{
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
 .header-logo {
     position: absolute;
     width: 25%;
