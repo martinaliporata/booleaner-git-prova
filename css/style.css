@@ -12,7 +12,23 @@
 section.header{
     height: 150px;
     width: 100%;
+    background-color: aqua;
+}
+
+section.header h1{
     position: relative;
+    top: 100px;
+    margin-left: 1rem;
+}
+
+p.writer{
+    font-size: .66rem;
+    color: rgb(177, 177, 177);
+}
+
+section.title h2{
+    font-weight: 900;
+    font-size: 3rem;
 }
 
 .header-logo {
