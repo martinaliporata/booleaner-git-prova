@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #header-background {
     background-color: #4ea0ff;
     height: 400px;
@@ -7,6 +13,32 @@
     background-repeat: repeat;
     background-position: center;
     position: relative;
+}
+
+body{
+    width: 1200px;
+    margin: auto;
+
+section.header{
+    height: 150px;
+    width: 100%;
+    background-color: aqua;
+}
+
+section.header h1{
+    position: relative;
+    top: 100px;
+    margin-left: 1rem;
+}
+
+p.writer{
+    font-size: .66rem;
+    color: rgb(177, 177, 177);
+}
+
+section.title h2{
+    font-weight: 900;
+    font-size: 3rem;
 }
 
 .header-logo {
@@ -83,4 +115,18 @@ table {
     color: white;
     font-size: 30px;
     background-size: cover;
+}
+
+.dflex{
+    display: flex;
+    align-items:center;
+    text-align: justify;
+}
+
+img{
+    height: 660px;
+}
+
+#ponte {
+    width: 68%;
 }
