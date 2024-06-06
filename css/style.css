@@ -99,6 +99,11 @@ table {
 .dflex{
     display: flex;
     align-items:center;
+    text-align: justify;
+}
+
+img{
+    height: 660px;
 }
 
 #ponte {
